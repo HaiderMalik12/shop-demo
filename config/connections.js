@@ -56,14 +56,7 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  mlabServer: {
-    adapter: 'sails-mongo',
-    url: 'mongodb://haider:root@ds113841.mlab.com:13841/shop_db',
-    // port: 27017,
-    // user: 'username', //optional
-    // password: 'password', //optional
-    // database: 'shop_db' //optional
-  },
+  z
 
   /***************************************************************************
   *                                                                          *
