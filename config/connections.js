@@ -56,7 +56,10 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  z
+  
+   mongoLabServer : {
+    url : 'mongodb://root:root@ds017193.mlab.com:17193/shop_db'
+   }
 
   /***************************************************************************
   *                                                                          *
