@@ -31,7 +31,7 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-  
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
@@ -42,4 +42,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  'POST /products': 'ProductController.create',
+  'GET /products': 'ProductController.find',
+  'PUT /products/:id': 'ProductController.update',
+  'DELETE /products/:id': 'ProductController.destroy',
 };
